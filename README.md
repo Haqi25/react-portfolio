@@ -1,3 +1,11 @@
+# Credits
+This project includes UI implementation based on a Figma design created by Dimas Ardiansyah.
+- Original UI Design: Dimas Ardiansyah
+- Source: Figma Community
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+- Changes Made: The original design was recreated and implemented in React.js with Tailwind CSS. Responsive - layouts, animations, and additional interactions were added during development.
+- Link:https://www.figma.com/design/8QykmnbAFqJpXkvJ6qvj4m/Personal-Portofolio-Web-Design--FREE---Community-?node-id=1-5&t=pDFfpv8lswFiuxG5-1
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
