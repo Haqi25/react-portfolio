@@ -7,8 +7,8 @@ import Tailwind from '../assets/tailwind.png'
 function Tools(){
     return(
 <>
-    <section id="tools" className='mt-30'>
-       <div className="text-white text-center lg:text-[36px] text-2xl font-[Poppins] font-semibold slide-in-down">
+    <section  className='mt-30'>
+       <div id='tools' className="text-white text-center lg:text-[36px] text-2xl font-[Poppins] font-semibold slide-in-down">
                     <a>Tools and Skills</a>
                 </div>
       <div className="mt-2  container grid grid-cols-2 lg:grid-cols-5  py-6 px-11 ml-0 md:ml-16  space-x-4 gap-11 ">

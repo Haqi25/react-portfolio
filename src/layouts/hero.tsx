@@ -31,7 +31,7 @@ function Hero(){
   }, []);
     return(
         <>
-        <section  className="container mx-auto grid grid-cols-1  lg:grid-cols-2 px-4 py-20 items-center fade-in-section ">
+        <section id="hero"  className="container mx-auto grid grid-cols-1  lg:grid-cols-2 px-4 py-20 items-center fade-in-section ">
             
             <div className="text-white font-[Poppins] font-semibold lg:text-[36px] text-2xl  ">
                 <p className="">Hi There !</p>
