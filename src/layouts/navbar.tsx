@@ -25,11 +25,11 @@ function Navbar(){
   </button>
   <div className={`md:hidden absolute top-full left-0 w-full bg-[#0F0F0F] px-4 pb-6 pt-2 transition-all duration-300 ease-in-out ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
         <div className="flex flex-col gap-4">
-          <a href="#" onClick={() => setIsOpen(false)} className="text-white font-[Poppins] font-medium text-[18px] py-2 hover:text-[#7456FF]">Home</a>
-          <a href="#" onClick={() => setIsOpen(false)} className="text-white font-[Poppins] font-medium text-[18px] py-2 hover:text-[#7456FF]">About</a>
-          <a href="#" onClick={() => setIsOpen(false)} className="text-white font-[Poppins] font-medium text-[18px] py-2 hover:text-[#7456FF]">Project</a>
-          <a href="#" onClick={() => setIsOpen(false)} className="text-white font-[Poppins] font-medium text-[18px] py-2 hover:text-[#7456FF]">Blog</a>
-          <a href="#" onClick={() => setIsOpen(false)} className="text-center text-[#7456FF] font-[Poppins] font-semibold text-[18px] border border-[#7456FF] rounded-lg py-2.5 hover:bg-[#7456FF] hover:text-white transition duration-300 mt-2">
+          <a href="/" onClick={() => setIsOpen(false)} className="text-white font-[Poppins] font-medium text-[18px] py-2 hover:text-[#7456FF]">Home</a>
+          <a href="#hero" onClick={() => setIsOpen(false)} className="text-white font-[Poppins] font-medium text-[18px] py-2 hover:text-[#7456FF]">About</a>
+          <a href="#projects" onClick={() => setIsOpen(false)} className="text-white font-[Poppins] font-medium text-[18px] py-2 hover:text-[#7456FF]">Project</a>
+          <a href="#tools" onClick={() => setIsOpen(false)} className="text-white font-[Poppins] font-medium text-[18px] py-2 hover:text-[#7456FF]">Tools & Skills</a>
+          <a href="#footer" onClick={() => setIsOpen(false)} className="text-center text-[#7456FF] font-[Poppins] font-semibold text-[18px] border border-[#7456FF] rounded-lg py-2.5 hover:bg-[#7456FF] hover:text-white transition duration-300 mt-2">
             Contact Me
           </a>
         </div>
