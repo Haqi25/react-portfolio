@@ -13,7 +13,7 @@ import HireMe from './layouts/hireme'
 import Tools from './layouts/tools'
 import  AudioSection from './layouts/music'
 import Footer from './layouts/footer'
-import Maintenance from './layouts/maintenance'
+
 
 import Whatsapp from './layouts/whatsapp-button'
 createRoot(document.getElementById('root')!).render(
@@ -30,6 +30,6 @@ createRoot(document.getElementById('root')!).render(
 <Footer/> 
 
 <Whatsapp/> 
-{/* <Maintenance/> */}
+
   </StrictMode>,
 )

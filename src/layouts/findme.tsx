@@ -1,5 +1,5 @@
 
-import { FaFacebook, FaInstagram, FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
+import {  FaInstagram, FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 import { useEffect } from "react";
 function FindMe(){
       useEffect(() => {

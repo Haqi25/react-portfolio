@@ -1,5 +1,5 @@
-import React, { useState, useRef } from 'react';
-// 1. Import file audio-nya dulu di sini (sesuaikan jumlah titik ../ dengan posisi foldermu)
+import { useState, useRef } from 'react';
+
 import letItHappenAudio from '../assets/Let it happen - Tame Impala .mp3';
 import icon from '../assets/tame impala.jpg'
 import {
@@ -11,8 +11,7 @@ import {
 
 export default function AudioSection() {
   const [isPlaying, setIsPlaying] = useState(false);
-  
-  // 2. Masukkan variabel hasil import tadi ke dalam new Audio()
+
   const audioRef = useRef(new Audio(letItHappenAudio));
 
   const togglePlay = () => {
