@@ -5,7 +5,7 @@ export default function Whatsapp() {
  return (
    <div>
      <FloatingWhatsApp
-       phoneNumber="+6289524137502"
+       phoneNumber="+62895629540686"
        accountName="Hawi"
        avatar="/src/assets/profile.webp"
        statusMessage="Typically replies within 1 hour"

@@ -22,7 +22,7 @@ function footer(){
                             <a className='text-white border border-[#ffff] rounded-full  py-4 px-4  '><Phone/></a>
                             <div className='flex flex-col ml-4'>
                                 <a className='text-[#999999] font-[Poppins]'>Phone/Whatsapp</a>
-                                 <a className='text-white font-[Poppins] text-[16px]'>089524137502</a>
+                                 <a className='text-white font-[Poppins] text-[16px]'>0895629540686</a>
                             </div>
                             
                             
