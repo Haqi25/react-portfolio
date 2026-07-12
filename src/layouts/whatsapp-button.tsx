@@ -7,7 +7,8 @@ export default function Whatsapp() {
      <FloatingWhatsApp
        phoneNumber="+62895629540686"
        accountName="Hawi"
-       avatar="/src/assets/profile.webp"
+       avatar="https://react-portfolio-beryl-psi-81.vercel.app/src/assets/profile.webp"
+      //     avatar="/src/assets/profile.webp"  ---> you can change into this
        statusMessage="Typically replies within 1 hour"
        chatMessage="Halo dengan Hawi disini ada yang bisa saya bantu 😊"
        placeholder="Type a message.."
