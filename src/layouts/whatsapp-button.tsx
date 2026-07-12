@@ -11,7 +11,7 @@ export default function Whatsapp() {
        statusMessage="Typically replies within 1 hour"
        chatMessage="Halo dengan Hawi disini ada yang bisa saya bantu 😊"
        placeholder="Type a message.."
-       darkMode={false}
+       darkMode={true}
        notification={true}
        notificationDelay={60}
      />
